@@ -1,0 +1,58 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+*.pyc
+__pycache__/
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+
+# Environment variables (CRUCIAL!)
+.env
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+*.bak
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+*.cover
+
+# Celery (pour plus tard si background tasks)
+celerybeat-schedule
+
+# Jupyter Notebook (si tu testes dans notebooks)
+.ipynb_checkpoints
+
+# Local development
+*.local
+
